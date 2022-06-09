@@ -13,7 +13,14 @@ public class CPF {
         this.cpf = cpf;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
 
+    @Override
+    public String toString() {
+        return this.cpf;
+    }
 
     private boolean isCPF(String cpf) {
 

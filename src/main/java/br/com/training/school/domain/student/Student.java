@@ -18,16 +18,16 @@ public class Student {
         this.phones = new HashSet<>();
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return this.cpf.getCpf();
     }
 
     public String getName() {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return this.email.getAddress();
     }
 
     public Set<Phone> getPhones() {
@@ -38,5 +38,13 @@ public class Student {
         return this.phones.add(new Phone(ddd, number));
     }
 
-
+    @Override
+    public String toString() {
+        return "Student { " +
+                "CPF = " + cpf +
+                ", Name = '" + name + '\'' +
+                ", Email = " + email + '\'' +
+                " Phones = " + phones + '\'' +
+                '}';
+    }
 }

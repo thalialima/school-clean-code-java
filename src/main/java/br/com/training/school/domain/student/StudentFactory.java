@@ -10,6 +10,7 @@ public class StudentFactory {
         this.name = name;
         this.cpf = new CPF(cpf);
         this.email = new Email(address);
+        this.student = new Student(this.cpf, this.name, this.email);
     }
 
 //    public StudentFactory populateStudentNameCPFEmail(String name, String cpf, String address) {
@@ -26,6 +27,6 @@ public class StudentFactory {
     }
 
     public Student create() {
-        return new Student(this.cpf, this.name, this.email);
+        return this.student;
     }
 }

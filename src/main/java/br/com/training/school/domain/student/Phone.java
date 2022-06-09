@@ -28,6 +28,12 @@ public class Phone {
         return number;
     }
 
+
+    @Override
+    public String toString() {
+        return this.ddd.concat(this.number);
+    }
+
     @Override
     public boolean equals(Object object) {
         Phone phone = (Phone) object;

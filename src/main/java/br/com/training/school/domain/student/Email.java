@@ -18,6 +18,11 @@ public class Email {
         return address;
     }
 
+    @Override
+    public String toString() {
+        return this.address;
+    }
+
     private boolean isValid(String address) {
         return (address != null && address.matches(regexPattern));
     }
