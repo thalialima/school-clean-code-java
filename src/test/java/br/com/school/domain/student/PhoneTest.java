@@ -1,5 +1,7 @@
+package br.com.school.domain.student;
+
 import org.junit.jupiter.api.Test;
-import school.Phone;
+import br.com.training.school.domain.student.Phone;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

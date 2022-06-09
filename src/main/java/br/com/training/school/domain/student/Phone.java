@@ -1,4 +1,4 @@
-package school;
+package br.com.training.school.domain.student;
 
 //VALUE OBJECT
 public class Phone {

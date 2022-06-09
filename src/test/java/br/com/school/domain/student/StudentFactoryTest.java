@@ -1,9 +1,11 @@
+package br.com.school.domain.student;
+
 import org.junit.jupiter.api.Test;
 
-import school.CPF;
-import school.Email;
-import school.Student;
-import school.StudentFactory;
+import br.com.training.school.domain.student.CPF;
+import br.com.training.school.domain.student.Email;
+import br.com.training.school.domain.student.Student;
+import br.com.training.school.domain.student.StudentFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-package school;
+package br.com.training.school.domain.student;
 
 import java.util.InputMismatchException;
 
