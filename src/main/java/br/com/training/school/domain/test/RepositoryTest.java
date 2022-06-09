@@ -1,6 +1,6 @@
 package br.com.training.school.domain.test;
 
-import br.com.training.school.db.CreateTables;
+import br.com.training.school.infra.db.CreateTables;
 import br.com.training.school.domain.student.ConnectionFactory;
 import br.com.training.school.domain.student.Student;
 import br.com.training.school.domain.student.StudentFactory;

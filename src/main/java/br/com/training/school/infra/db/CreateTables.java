@@ -1,4 +1,4 @@
-package br.com.training.school.db;
+package br.com.training.school.infra.db;
 
 import java.sql.Connection;
 import java.sql.SQLException;

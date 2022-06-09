@@ -10,6 +10,11 @@ public class Student {
     private String name;
     private Email email;
     private Set<Phone> phones;
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
 
     public Student(CPF cpf, String name, Email email) {
         this.cpf = cpf;
